@@ -1,4 +1,4 @@
- ###👋 Hi, I’m @Ddasunsandeepa
+ ### 👋 Hi, I’m @Ddasunsandeepa
 - 👀 I’m interested in software development, AI, and machine learning.
 - 🌱 I’m currently learning DevSecOps, project management, and working on mastering AI techniques and clean code principles.
 - 💞️ I’m looking to collaborate on innovative AI projects, scalable software solutions, and open-source contributions.

@@ -6,9 +6,13 @@
 
 ### Glad to see you here! 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ddswilathgamuwa&label=Profile%20views&color=0e75b6&style=flat" alt="ddswilathgamuwa" /> </p>
-# 🚀 Software Engineering Undergrad | Full Stack Developer | AI & ML Enthusiast  
+---
 
-I’m a **Software Engineering undergraduate** with a passion for **building scalable systems, problem-solving, and exploring cutting-edge technology.** Currently, I’m diving deep into **Full Stack Development, AI/ML, DevOps, and Security**, always eager to learn and adapt fast.  
+<h3 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=Software+Engineering+Undergrad;Full+Stack+Developer;AI+%26+ML+Enthusiast;Cloud+and+DevOps+Explorer" alt="Typing SVG" />
+</h3>
+
+---
 
 ## 💡 Tech I work with & explore:  
 - **🔹 Full Stack:** JavaScript, Node.js, React, Next.js, Express.js, MongoDB, MySQL  

@@ -9,7 +9,7 @@
 ---
 
 <h3 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=Software+Engineering+Undergraduate;Full+Stack+Developer;AI+%26+ML+Enthusiast;Cloud+and+DevOps+Explorer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=Software+Engineering+Undergrad;Full+Stack+Developer;AI+%26+ML+Enthusiast;Cloud+and+DevOps+Explorer" alt="Typing SVG" />
 </h3>
 
 ---

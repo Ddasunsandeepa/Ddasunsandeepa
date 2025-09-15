@@ -12,9 +12,12 @@ jobs:
       - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
-          filename: README.md
           token: ${{ secrets.METRICS_TOKEN }}
+          filename: README.md
           base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Colombo
+
+          # Plugins
           plugin_isocalendar: yes
           plugin_languages: yes
           plugin_stars: yes

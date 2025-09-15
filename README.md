@@ -12,7 +12,7 @@
   <img src="https://komarev.com/ghpvc/?username=ddswilathgamuwa&label=Profile%20views&color=0e75b6&style=flat" alt="ddswilathgamuwa" />
 </p>
 
- **<img src="https://user-images.githubusercontent.com/108933534/210176487-bb71ad61-85d6-4027-a637-5384e9a95733.gif" width="50" height="50"/>**  **About me**
+ # **<img src="https://user-images.githubusercontent.com/108933534/210176487-bb71ad61-85d6-4027-a637-5384e9a95733.gif" width="50" height="50"/>**  About Me
 🚀 Full Stack | Cloud | AI & ML Enthusiast  <br>🔭 Currently learning **Generative AI** and **LLMs**  <br>💬 Love building, solving, and sharing ideas  <br>📫 Reach me: **ddswilathgamuwa@gmail.com**<br>
 
 

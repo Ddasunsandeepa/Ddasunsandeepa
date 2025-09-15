@@ -1,0 +1,22 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # every 12 hours
+  workflow_dispatch: # allow manual runs
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate GitHub Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: README.md
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header, activity, community, repositories, metadata
+          plugin_isocalendar: yes
+          plugin_languages: yes
+          plugin_stars: yes
+          plugin_followup: yes
+          plugin_repositories: yes

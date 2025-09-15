@@ -1,5 +1,7 @@
 <h1 align="center">Hi 👋, I'm Dasun Sandeepa Wilathgamuwa</h1>
 
+[![GitHub Banner](https://user-images.githubusercontent.com/58959408/232639433-cb0aea21-66f0-4508-a771-85e2089c5a87.gif)](https://github.com/Ddasunsandeepa)
+
 <h3 align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=565&lines=Software+Engineering+Undergraduate;Full+Stack+Developer;AI+%26+ML+Enthusiast;Cloud+and+DevOps+Explorer" alt="Typing SVG" />
 </h3>
@@ -10,7 +12,7 @@
   <img src="https://komarev.com/ghpvc/?username=ddswilathgamuwa&label=Profile%20views&color=0e75b6&style=flat" alt="ddswilathgamuwa" />
 </p>
 
-# 💫 About Me:
+ **<img src="https://user-images.githubusercontent.com/108933534/210176487-bb71ad61-85d6-4027-a637-5384e9a95733.gif" width="50" height="50"/>**  **About me**
 🚀 Full Stack | Cloud | AI & ML Enthusiast  <br>🔭 Currently learning **Generative AI** and **LLMs**  <br>💬 Love building, solving, and sharing ideas  <br>📫 Reach me: **ddswilathgamuwa@gmail.com**<br>
 
 

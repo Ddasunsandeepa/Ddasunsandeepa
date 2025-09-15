@@ -46,10 +46,9 @@
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ddswilathgamuwa&show_icons=true&theme=dark" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ddswilathgamuwa&layout=compact&theme=dark" height="180" />
-</p>
+<!--START_SECTION:metrics-->
+<!-- The workflow will automatically insert your updated GitHub Metrics here -->
+<!--END_SECTION:metrics-->
 
 ---
 
@@ -68,4 +67,3 @@
     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50" >
   </a>
 </p>
-

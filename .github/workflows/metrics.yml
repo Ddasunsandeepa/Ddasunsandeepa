@@ -13,7 +13,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: README.md
+          filename: ./README.md
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Colombo
 

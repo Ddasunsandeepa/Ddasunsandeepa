@@ -31,7 +31,7 @@ I'm a **Software Engineering undergraduate from Colombo, Sri Lanka**, building s
 - 🔭 Working on **explainable (XAI) commit-level vulnerability detection for DevSecOps pipelines**
 - 🧠 Learning **Generative AI & LLMs**
 - ☁️ Building and deploying on **Kubernetes, AWS EKS, Docker, Argo CD**
-- 🤝 Open source contributor at **[@CIESYS](https://github.com/CIESYS)** and **[@typesense](https://github.com/typesense)**
+- 🤝 Open source contributor at **[@typesense](https://github.com/typesense)**
 - 📫 Reach me: **ddswilathgamuwa@gmail.com**
 
 <div align="center"><img src="./assets/divider.svg" width="100%" alt="" /></div>

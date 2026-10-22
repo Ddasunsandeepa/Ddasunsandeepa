@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+  <defs>
+    <linearGradient id="win" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0b1020"/>
+    </linearGradient>
+    <filter id="drop" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#22d3ee" flood-opacity="0.25"/>
+    </filter>
+    <clipPath id="c1"><rect x="40" y="70" width="0" height="26"><animate attributeName="width" values="0;0;820;820;0" keyTimes="0;0.02;0.10;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c2"><rect x="40" y="98" width="0" height="26"><animate attributeName="width" values="0;0;820;820;0" keyTimes="0;0.12;0.20;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c3"><rect x="40" y="136" width="0" height="26"><animate attributeName="width" values="0;0;820;820;0" keyTimes="0;0.24;0.34;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c4"><rect x="40" y="164" width="0" height="26"><animate attributeName="width" values="0;0;820;820;0" keyTimes="0;0.36;0.46;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c5"><rect x="40" y="202" width="0" height="26"><animate attributeName="width" values="0;0;820;820;0" keyTimes="0;0.48;0.58;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c6"><rect x="40" y="230" width="0" height="26"><animate attributeName="width" values="0;0;820;820;0" keyTimes="0;0.60;0.72;0.96;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <g filter="url(#drop)">
+    <rect x="10" y="10" width="880" height="270" rx="14" fill="url(#win)" stroke="#22d3ee" stroke-opacity="0.35"/>
+    <path d="M10 24a14 14 0 0 1 14-14h852a14 14 0 0 1 14 14v22H10z" fill="#1f2937"/>
+    <circle cx="36" cy="28" r="6" fill="#ff5f56"/>
+    <circle cx="58" cy="28" r="6" fill="#ffbd2e"/>
+    <circle cx="80" cy="28" r="6" fill="#27c93f"/>
+    <text x="450" y="33" text-anchor="middle" font-family="'Courier New', Consolas, monospace" font-size="13" fill="#9ca3af">dasun@colombo: ~</text>
+  </g>
+
+  <g font-family="'Courier New', Consolas, monospace" font-size="16">
+    <g clip-path="url(#c1)"><text x="40" y="88" fill="#22d3ee">$ whoami</text></g>
+    <g clip-path="url(#c2)"><text x="40" y="116" fill="#e5e7eb">Dasun Sandeepa · Software Engineering Undergraduate · Colombo, LK</text></g>
+
+    <g clip-path="url(#c3)"><text x="40" y="154" fill="#22d3ee">$ cat focus.txt</text></g>
+    <g clip-path="url(#c4)"><text x="40" y="182" fill="#e5e7eb">DevSecOps | GitOps | Microservices | Explainable AI</text></g>
+
+    <g clip-path="url(#c5)"><text x="40" y="220" fill="#22d3ee">$ ./currently --learning</text></g>
+    <g clip-path="url(#c6)"><text x="40" y="248" fill="#a78bfa">Generative AI · LLMs · Advanced Kubernetes</text></g>
+  </g>
+
+  <rect x="40" y="258" width="10" height="16" fill="#22d3ee">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="300" viewBox="0 0 1000 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05070f"/>
+      <stop offset="50%" stop-color="#140f3a"/>
+      <stop offset="100%" stop-color="#05303f"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow" x="-20%" y="-50%" width="140%" height="250%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <text id="nm" x="500" y="135" text-anchor="middle" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="68" font-weight="900" letter-spacing="6">DASUN SANDEEPA</text>
+    <clipPath id="round"><rect width="1000" height="300" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1000" height="300" fill="url(#bg)"/>
+    <rect width="1000" height="300" fill="url(#halo)"/>
+
+    <!-- perspective floor grid -->
+    <g stroke="url(#floor)" stroke-width="1.2" fill="none">
+      <line x1="0" y1="205" x2="1000" y2="205"/>
+      <line x1="0" y1="214" x2="1000" y2="214"/>
+      <line x1="0" y1="226" x2="1000" y2="226"/>
+      <line x1="0" y1="241" x2="1000" y2="241"/>
+      <line x1="0" y1="260" x2="1000" y2="260"/>
+      <line x1="0" y1="284" x2="1000" y2="284"/>
+      <line x1="275" y1="200" x2="-400" y2="300"/>
+      <line x1="325" y1="200" x2="-200" y2="300"/>
+      <line x1="375" y1="200" x2="0" y2="300"/>
+      <line x1="400" y1="200" x2="100" y2="300"/>
+      <line x1="425" y1="200" x2="200" y2="300"/>
+      <line x1="450" y1="200" x2="300" y2="300"/>
+      <line x1="475" y1="200" x2="400" y2="300"/>
+      <line x1="500" y1="200" x2="500" y2="300"/>
+      <line x1="525" y1="200" x2="600" y2="300"/>
+      <line x1="550" y1="200" x2="700" y2="300"/>
+      <line x1="575" y1="200" x2="800" y2="300"/>
+      <line x1="600" y1="200" x2="900" y2="300"/>
+      <line x1="625" y1="200" x2="1000" y2="300"/>
+      <line x1="675" y1="200" x2="1200" y2="300"/>
+      <line x1="725" y1="200" x2="1400" y2="300"/>
+      <animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="4s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- floating orbs -->
+    <circle cx="120" cy="80" r="5" fill="#22d3ee" opacity="0.7">
+      <animate attributeName="cy" values="80;55;80" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="880" cy="95" r="4" fill="#a78bfa" opacity="0.8">
+      <animate attributeName="cy" values="95;65;95" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="230" cy="170" r="3" fill="#ffffff" opacity="0.6">
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="770" cy="170" r="3" fill="#22d3ee" opacity="0.6">
+      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="60" cy="200" r="2.5" fill="#a78bfa">
+      <animate attributeName="cy" values="200;170;200" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="950" cy="210" r="2.5" fill="#22d3ee">
+      <animate attributeName="cy" values="210;180;210" dur="6.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- soft ground shadow under the name -->
+    <ellipse cx="500" cy="168" rx="330" ry="10" fill="#000" opacity="0.55" filter="url(#shadow)"/>
+
+    <!-- 3D extruded name -->
+    <g>
+      <use xlink:href="#nm" href="#nm" x="9" y="9" fill="#04121f"/>
+      <use xlink:href="#nm" href="#nm" x="8" y="8" fill="#06283f"/>
+      <use xlink:href="#nm" href="#nm" x="7" y="7" fill="#073a57"/>
+      <use xlink:href="#nm" href="#nm" x="6" y="6" fill="#085070"/>
+      <use xlink:href="#nm" href="#nm" x="5" y="5" fill="#0a6590"/>
+      <use xlink:href="#nm" href="#nm" x="4" y="4" fill="#0b7ba8"/>
+      <use xlink:href="#nm" href="#nm" x="3" y="3" fill="#0e91c0"/>
+      <use xlink:href="#nm" href="#nm" x="2" y="2" fill="#16a8d6"/>
+      <use xlink:href="#nm" href="#nm" x="1" y="1" fill="#22bde6"/>
+      <use xlink:href="#nm" href="#nm" fill="url(#txt)" filter="url(#glow)"/>
+    </g>
+
+    <text x="500" y="196" text-anchor="middle" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="17" font-weight="600" letter-spacing="4" fill="#7dd3fc">SOFTWARE ENGINEER  ·  DEVOPS  ·  CLOUD  ·  AI &amp; SECURITY</text>
+
+    <!-- accent bars -->
+    <rect x="410" y="60" width="180" height="3" rx="1.5" fill="#22d3ee">
+      <animate attributeName="width" values="40;180;40" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="480;410;480" dur="4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="1" y="1" width="998" height="298" rx="18" fill="none" stroke="#22d3ee" stroke-opacity="0.35"/>
+</svg>
